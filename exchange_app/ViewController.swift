@@ -7,7 +7,6 @@
 
 import UIKit
 import Alamofire
-import SwiftyJSON
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet var imageView:UIImage!
     let url = "https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5"
